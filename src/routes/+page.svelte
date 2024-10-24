@@ -6,6 +6,7 @@
 	import * as Avatar from "$lib/components/ui/avatar";
 	import Badge from "$lib/components/ui/badge/badge.svelte";
 	import { DATA } from "$lib/data/resume";
+    import { Divide } from "lucide-svelte";
 	import { marked } from "marked";
 	let BLUR_FADE_DELAY = 0.04;
 </script>
@@ -101,9 +102,9 @@
 				</div>
 			</BlurFade>
 			<div
-				class="mx-auto grid max-w-[800px] grid-cols-1 gap-3 sm:grid-cols-2"
+				class="mx-auto grid max-w-[800px] grid-cols-1 gap-3 sm:grid-cols-1"
 			>
-				{#each DATA.projects.slice(0, DATA.projects.length % 2 !== 0 ? -1 : undefined) as project, id}
+				{#each DATA.projects as project, id}
 					<BlurFade delay={BLUR_FADE_DELAY * 1.5 + id * 0.05}>
 						<ProjectCard
 							href={project.href}
@@ -116,25 +117,8 @@
 							class={id === DATA.projects.length - 1 && DATA.projects.length % 2 !== 0 ? 'sm:col-span-2' : ''}
 						/>
 					</BlurFade>
+					<Divide class="mx-auto my-4 h-1 w-full max-w-[800px] bg-muted-foreground" />
 				{/each}
-			</div>
-			<div
-				class = "mx-auto grid max-w-[350px] grid-cols-1 gap-3 sm:grid-cols-1"
-			>
-				{#if DATA.projects.length % 2 !== 0}
-					<BlurFade delay={BLUR_FADE_DELAY * 1.5 + DATA.projects.length * 0.05}>
-						<ProjectCard
-							href={DATA.projects[DATA.projects.length - 1].href}
-							title={DATA.projects[DATA.projects.length - 1].title}
-							description={DATA.projects[DATA.projects.length - 1].description}
-							dates={DATA.projects[DATA.projects.length - 1].dates}
-							tags={DATA.projects[DATA.projects.length - 1].technologies}
-							image={DATA.projects[DATA.projects.length - 1].image}
-							links={DATA.projects[DATA.projects.length - 1].links}
-							class="sm:col-span-2"
-						/>
-					</BlurFade>
-				{/if}
 			</div>
 		</div>
 	</section>

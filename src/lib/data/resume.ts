@@ -174,7 +174,7 @@ export let DATA = {
             start: 'June 2021',
             end: 'August 2021',
             description:
-                'Enabled debugging of production issues for all dev and QA teams by creating internal website and Javaservice to display, filter, and search a users song recommendation history across all prod and dev environments using React, JS, and Java/Spring.'
+                'Enabled debugging of production issues for all dev and QA teams by creating internal website and Java service to display, filter, and search a users song recommendation history across all prod and dev environments using React, JS, and Java/Spring.'
         },
     ],
     education: [
@@ -198,7 +198,7 @@ export let DATA = {
     projects: [
         {
             title: 'Stride',
-            href: 'https://chatcollect.com',
+            href: '/projects/stride',
             dates: 'Jan 2024 - Feb 2024',
             active: true,
             description:
@@ -232,7 +232,7 @@ export let DATA = {
         },
         {
             title: 'CaptionBee',
-            href: 'https://magicui.design',
+            href: '/projects/caption-bee',
             dates: 'June 2023 - Present',
             active: true,
             description: 'Web app that allows users to generate and easily edit subtitles for videos using AI.',
@@ -294,7 +294,7 @@ export let DATA = {
         // },
         {
             title: 'Competitor Social Media Analysis Dashboard (Instalily)',
-            href: 'https://automatic.chat',
+            href: '/projects/social-media-analysis',
             dates: 'April 2023 - March 2024',
             active: true,
             description:
@@ -324,7 +324,7 @@ export let DATA = {
         },
         {
             title: 'ClassTranscribe',
-            href: 'https://classtranscribe.illinois.edu',
+            href: '/projects/classtranscribe',
             dates: 'April 2023 - March 2024',
             technologies: [
                 'React',
@@ -356,7 +356,7 @@ export let DATA = {
         },
         {
             title: 'Ultra-Wideband Localization System for Real-Time Position Tracking',
-            href: 'https://www.youtube.com/watch?v=Qu59CW5JuwM',
+            href: '/projects/uwb',
             technologies: [
                 'C',
                 'Ultra-Wideband',

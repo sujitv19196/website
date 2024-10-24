@@ -22,14 +22,14 @@
 	<a href={href || '#'} class="block cursor-pointer">
 		{#if video}
 			<video
-				class="pointer-events-none mx-auto h-40 w-full object-cover object-top"
+				class="pointer-events-none mx-auto h-60 w-full object-cover object-top"
 				src={video}
 				autoplay
 				loop
 				muted
 			></video>
 		{:else}
-			<img class="h-40 w-full overflow-hidden object-cover object-mid" src={image} alt={title} />
+			<img class="h-60 w-full overflow-hidden object-cover object-mid" src={image} alt={title} />
 		{/if}
 	</a>
 	<!-- Card Header -->
