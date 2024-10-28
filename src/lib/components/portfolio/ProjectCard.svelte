@@ -19,7 +19,7 @@
 <div
 	class="flex h-full flex-col overflow-hidden border transition-all duration-300 ease-out hover:shadow-lg rounded-lg bg-card text-card-foreground"
 >
-	<a href={href || '#'} class="block cursor-pointer">
+	<!-- <a href={href || '#'} class="block cursor-pointer"> -->
 		{#if video}
 			<video
 				class="pointer-events-none mx-auto h-60 w-full object-cover object-top"
@@ -29,16 +29,16 @@
 				muted
 			></video>
 		{:else}
-			<img class="h-60 w-full overflow-hidden object-cover object-mid" src={image} alt={title} />
+			<img class="h-full w-full overflow-hidden object-cover object-mid" src={image} alt={title} />
 		{/if}
-	</a>
+	<!-- </a> -->
 	<!-- Card Header -->
 	<div class="px-2 flex flex-col">
 		<div class="space-y-1">
 			<!-- Card Title -->
-			<div class="mt-1 text-base">{title}</div>
+			<div class="mt-1 text-m text-base">{title}</div>
 			<!-- <time class="font-sans text-xs">{dates}</time> -->
-			<div class="hidden font-sans text-xs underline print:visible">
+			<div class="hidden font-sans text-s underline print:visible">
 				{link?.replace('https://', '').replace('www.', '').replace('/', '')}
 			</div>
 			<div

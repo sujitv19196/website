@@ -33,8 +33,8 @@ import PandoraLogo from '$lib/imgs/pandora.png';
 import UOFILOGO from '$lib/imgs/uofilogo.png';
 import StrideFig from '$lib/imgs/stridefig2.png';
 import CaptionBeeDemo from '$lib/imgs/cbdemo.png';
-import CTDEMO from '$lib/imgs/ctdemo.png';
-import CBSDemo from '$lib/imgs/cbs1.png';
+import CTDEMO from '$lib/imgs/ctdemo2.svg';
+import CBSDemo from '$lib/imgs/cbs.svg';
 import UWB from '$lib/imgs/uwb.png';
 
 // Your resume data
@@ -46,9 +46,13 @@ export let DATA = {
     location: 'New York, NY',
     locationLink: 'https://www.google.com/maps/place/new+york+ny',
     description:
-        'Software Engineer with a passion for Agentic AI full-stack apps, Accessibility in tech, and P2P distributed systems',
+        'Software Engineer with a passion for AI full-stack apps, accessibility and assistive technology, and P2P distributed systems',
     summary:
-        '', // TODO Add a summary here
+        `With experience in backend, frontend, full-stack development, and distributed systems, I specialize in building scalable, AI-driven applications. 
+        At Instalily.ai, I launched a full-stack AI advertisement analysis tool used daily by over 25 marketing teams and led the design of a graph-based 
+        AI Agent Python library for deploying autonomous agentic workflows fast. My previous experience includes enhancing accessibility features for a lecture video 
+        platform used by 10,000 users and productionalizing new features for the core song recommendation service powering Pandora and serving over 40 million listeners. Proficient in Python, Java, Go, JS, React, 
+        and various frameworks, I'm passionate about leveraging AI and distributed systems to solve complex problems and improve accesibiltiy for people of all abilities.`,
     avatarUrl: 'https://media.licdn.com/dms/image/v2/C5603AQGQSfvU7J4_OQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653598484052?e=1735171200&v=beta&t=rK4Rpj6N8BzqP4_3kXI8HzxZQ-BUg2UFO95RxXEMRWw',
     skills: [
         'Python',
@@ -64,6 +68,7 @@ export let DATA = {
         'Spring/Spring Boot',
         'Flask',
         'FastAPI',
+        'REST',
         'Docker',
         'SQL',
         'NoSQL',
@@ -157,7 +162,7 @@ export let DATA = {
             href: 'https://pandora.com',
             badges: [],
             location: 'Oakland, CA',
-            title: 'Software Enginee Intern',
+            title: 'Software Engineer Intern',
             logoUrl: PandoraLogo,
             start: 'June 2022',
             end: 'August 2022',
@@ -169,7 +174,7 @@ export let DATA = {
             href: 'https://pandora.com',
             badges: [],
             location: 'Oakland, CA',
-            title: 'Software Enginee Intern',
+            title: 'Software Engineer Intern',
             logoUrl: PandoraLogo,
             start: 'June 2021',
             end: 'August 2021',
@@ -197,6 +202,39 @@ export let DATA = {
     ],
     projects: [
         {
+            title: 'CaptionBee',
+            href: '/projects/caption-bee',
+            dates: 'June 2023 - Present',
+            active: true,
+            description: 'Free AI web app that allows users to auto-generate and easily edit subtitles for videos.',
+            technologies: [
+                'Python',
+                'Svelte',
+                'Typescript',
+                'HTML',
+                'CSS',
+                'SQLite',
+            ],
+            links: [
+                {
+                    type: 'Website Demo',
+                    href: 'https://anandramaka.github.io/CS-465-WebApp/',
+                    icon: Globe
+                },
+                {
+                    type: 'Source',
+                    href: 'https://github.com/sujitv19196/caption-bee-ui',
+                    icon: Github
+                },
+                // {
+                //     'type': 'Learn More',
+                //     'href': '/projects/caption-bee',
+                //     'icon': Forward
+                // }
+            ],
+            image: CaptionBeeDemo,
+        },
+        {
             title: 'Stride',
             href: '/projects/stride',
             dates: 'Jan 2024 - Feb 2024',
@@ -222,46 +260,13 @@ export let DATA = {
                     icon: Github
 
                 },
-                {
-                    type: 'Learn More',
-                    href: '/projects/stride',
-                    icon: Forward
-                }
+                // {
+                //     type: 'Learn More',
+                //     href: '/projects/stride',
+                //     icon: Forward
+                // }
             ],
             image: StrideFig,
-        },
-        {
-            title: 'CaptionBee',
-            href: '/projects/caption-bee',
-            dates: 'June 2023 - Present',
-            active: true,
-            description: 'Web app that allows users to generate and easily edit subtitles for videos using AI.',
-            technologies: [
-                'Python',
-                'Svelte',
-                'Typescript',
-                'HTML',
-                'CSS',
-                'SQLite',
-            ],
-            links: [
-                {
-                    type: 'Website Demo',
-                    href: 'https://anandramaka.github.io/CS-465-WebApp/',
-                    icon: Globe
-                },
-                {
-                    type: 'Source',
-                    href: 'https://github.com/sujitv19196/caption-bee-ui',
-                    icon: Github
-                },
-                {
-                    'type': 'Learn More',
-                    'href': '/projects/caption-bee',
-                    'icon': Forward
-                }
-            ],
-            image: CaptionBeeDemo,
         },
         // {
         //     title: 'Enlarge My Music (WIP)',
@@ -293,6 +298,38 @@ export let DATA = {
         //     video: 'https://cdn.llm.report/openai-demo.mp4'
         // },
         {
+            title: 'ClassTranscribe',
+            href: '/projects/classtranscribe',
+            dates: 'April 2023 - March 2024',
+            technologies: [
+                'React',
+                'Javascript',
+                'Redux',
+                'Node.js',
+            ],
+            active: true,
+            description:
+                'Launched new features for an accessibility focused lecture video platform used at UIUC, including a new video player, video to textbook conversions using AI, and improved audio descriptions for blind users.',
+            links: [
+                {
+                    type: 'Website',
+                    href: 'https://classtranscribe.illinois.edu',
+                    icon: Globe
+                },
+                {
+                    type: 'Source',
+                    href: 'https://github.com/classtranscribe/FrontEnd',
+                    icon: Github
+                },
+                // {
+                //     type: 'Learn More',
+                //     href: '/projects/classtranscribe',
+                //     icon: Forward
+                // }
+            ],
+            image: CTDEMO,
+        },
+        {
             title: 'Competitor Social Media Analysis Dashboard (Instalily)',
             href: '/projects/social-media-analysis',
             dates: 'April 2023 - March 2024',
@@ -314,45 +351,13 @@ export let DATA = {
                 'GCP Cloud Functions'
             ],
             links: [
-                {
-                    type: 'Learn More',
-                    href: '/projects/social-media-analysis',
-                    icon: Forward
-                }
+                // {
+                //     type: 'Learn More',
+                //     href: '/projects/social-media-analysis',
+                //     icon: Forward
+                // }
             ],
             image: CBSDemo,
-        },
-        {
-            title: 'ClassTranscribe',
-            href: '/projects/classtranscribe',
-            dates: 'April 2023 - March 2024',
-            technologies: [
-                'React',
-                'Javascript',
-                'Redux',
-                'Node.js',
-            ],
-            active: true,
-            description:
-                'Developed accesibilty features for a lecture video platform to improve user experience for persons of all abilities.',
-            links: [
-                {
-                    type: 'Website',
-                    href: 'https://classtranscribe.illinois.edu',
-                    icon: Globe
-                },
-                {
-                    type: 'Source',
-                    href: 'https://github.com/classtranscribe/FrontEnd',
-                    icon: Github
-                },
-                {
-                    type: 'Learn More',
-                    href: '/projects/classtranscribe',
-                    icon: Forward
-                }
-            ],
-            image: CTDEMO,
         },
         {
             title: 'Ultra-Wideband Localization System for Real-Time Position Tracking',
@@ -366,7 +371,7 @@ export let DATA = {
             active: true,
             dates: 'April 2023 - March 2024',
             description:
-                'Triangulated position of object with 0.5-meter accuracy in real time by programming an array of UWB sensors utilizing a two-way ranging time of arrival approach using C.',
+                'Built a UWB sensor array to triangulate the position of an object with 0.5-meter accuracy in real time by utilizing a two-way ranging time of arrival approach.',
             links: [
                 {
                     type: 'Video',
@@ -378,11 +383,11 @@ export let DATA = {
                     href: 'https://github.com/sujitv19196/cs439-uwb-proj',
                     icon: Github
                 },
-                {
-                    type: 'Learn More',
-                    href: '/projects/uwb',
-                    icon: Forward
-                }
+                // {
+                //     type: 'Learn More',
+                //     href: '/projects/uwb',
+                //     icon: Forward
+                // }
             ],
             image: UWB,
         }

@@ -181,8 +181,9 @@
 						Get in Touch
 					</h2>
 					<p
-						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
-					></p>
+						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+						Have a question or want to work together? Feel free to email me at sujitvaradhan4atgmaildotcom or connect on Linkedin!
+					</p>
 				</div>
 			</BlurFade>
 		</div>
