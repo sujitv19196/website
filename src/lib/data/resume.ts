@@ -52,7 +52,7 @@ export let DATA = {
         At Instalily.ai, I launched a full-stack AI advertisement analysis tool used daily by over 25 marketing teams and led the design of a graph-based 
         AI Agent Python library for deploying autonomous agentic workflows fast. My previous experience includes enhancing accessibility features for a lecture video 
         platform used by 10,000 users and productionalizing new features for the core song recommendation service powering Pandora and serving over 40 million listeners. Proficient in Python, Java, Go, JS, React, 
-        and various frameworks, I'm passionate about leveraging AI and distributed systems to solve complex problems and improve accesibiltiy for people of all abilities.`,
+        and various frameworks, I'm passionate about leveraging AI and distributed systems to solve complex problems and improve accessibility for people of all abilities.`,
     avatarUrl: 'https://media.licdn.com/dms/image/v2/C5603AQGQSfvU7J4_OQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653598484052?e=1735171200&v=beta&t=rK4Rpj6N8BzqP4_3kXI8HzxZQ-BUg2UFO95RxXEMRWw',
     skills: [
         'Python',
