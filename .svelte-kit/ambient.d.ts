@@ -34,8 +34,8 @@ declare module '$env/static/private' {
 	export const INIT_CWD: string;
 	export const NVM_CD_FLAGS: string;
 	export const PYENV_ROOT: string;
-	export const TERM: string;
 	export const SHELL: string;
+	export const TERM: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
@@ -80,8 +80,8 @@ declare module '$env/static/private' {
 	export const XPC_SERVICE_NAME: string;
 	export const TOKENIZERS_PARALLELISM: string;
 	export const PYENV_SHELL: string;
-	export const HOME: string;
 	export const SHLVL: string;
+	export const HOME: string;
 	export const ELEVEN_LABS_API_KEY: string;
 	export const APIFY_API_TOKEN: string;
 	export const HOMEBREW_PREFIX: string;
@@ -142,8 +142,8 @@ declare module '$env/dynamic/private' {
 		INIT_CWD: string;
 		NVM_CD_FLAGS: string;
 		PYENV_ROOT: string;
-		TERM: string;
 		SHELL: string;
+		TERM: string;
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
@@ -188,8 +188,8 @@ declare module '$env/dynamic/private' {
 		XPC_SERVICE_NAME: string;
 		TOKENIZERS_PARALLELISM: string;
 		PYENV_SHELL: string;
-		HOME: string;
 		SHLVL: string;
+		HOME: string;
 		ELEVEN_LABS_API_KEY: string;
 		APIFY_API_TOKEN: string;
 		HOMEBREW_PREFIX: string;

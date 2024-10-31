@@ -63,11 +63,11 @@
 	</section>
 	<section id="about">
 		<BlurFade delay={BLUR_FADE_DELAY}>
-			<h2 class="text-xl font-bold">About</h2>
+			<h2 class="text-2xl font-bold">About</h2>
 		</BlurFade>
 		<BlurFade delay={BLUR_FADE_DELAY * 1.4}>
 			<div
-				class="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert"
+				class="prose max-w-full text-pretty font-sans text-base text-muted-foreground dark:prose-invert"
 			>
 				{@html marked(DATA.summary)}
 			</div>

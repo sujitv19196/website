@@ -78,7 +78,7 @@ export let DATA = {
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
         // { href: '/blog', icon: NotebookIcon, label: 'Blog' },
-        { href: '/Projects', icon: CodeIcon, label: 'Projects' }
+        // { href: '/Projects', icon: CodeIcon, label: 'Projects' }
     ],
     contact: {
         email: 'sujitvaradhan4@gmail.com',
@@ -158,6 +158,17 @@ export let DATA = {
                 'Shipped 100+ features to 10,000 users within a production lecture video platform by taking leadership role indeveloping new assistive technologies to improve user experience for persons of all abilities, using React and JS.'
         },
         {
+            company: 'UDL and Accessibility Research Group',
+            href: 'https://publish.illinois.edu/udl-accessibility-group/',
+            location: 'Urbana, IL',
+            title: 'Research Assistant',
+            logoUrl: UOFILOGO,
+            start: 'September 2021',
+            end: 'May 2024',
+            description:
+                'Co-authored seven papers on the impact of Universal Design for Learning (UDL) on student learning outcomes and accessibility in higher education with a goal of improving education for students of all abilities.'
+        },
+        {
             company: 'Pandora',
             href: 'https://pandora.com',
             badges: [],
@@ -187,8 +198,8 @@ export let DATA = {
             school: 'University of Illinois Urbana Champaign',
             degree: 'M.S. in Computer Science',
             logoUrl: UOFILOGO,
-            start: '2023',
-            end: '2022'
+            start: '2022',
+            end: '2023'
         },
         {
             school: 'University of Illinois Urbana Champaign',

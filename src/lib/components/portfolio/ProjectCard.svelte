@@ -36,13 +36,13 @@
 	<div class="px-2 flex flex-col">
 		<div class="space-y-1">
 			<!-- Card Title -->
-			<div class="mt-1 text-m text-base">{title}</div>
+			<div class="mt-1 text-lg text-base">{title}</div>
 			<!-- <time class="font-sans text-xs">{dates}</time> -->
-			<div class="hidden font-sans text-s underline print:visible">
+			<!-- <div class="hidden font-sans text-ms underline print:visible">
 				{link?.replace('https://', '').replace('www.', '').replace('/', '')}
-			</div>
+			</div> -->
 			<div
-				class="prose dark:prose-invert max-w-full text-pretty font-sans text-xs text-muted-foreground"
+				class="prose dark:prose-invert max-w-full text-pretty font-sans text-sm text-muted-foreground"
 			>
 				{@html marked(description)}
 			</div>
@@ -53,7 +53,7 @@
 		{#if tags && tags.length > 0}
 			<div class="mt-2 flex flex-wrap gap-1">
 				{#each tags as tag}
-					<Badge class="rounded-[4px] px-1 py-0 text-[10px]" variant="secondary">
+					<Badge class="rounded-[4px] px-1 py-0 text-[12px]" variant="secondary">
 						{tag}
 					</Badge>
 				{/each}
