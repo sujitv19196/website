@@ -1,1 +1,1 @@
-https://sujitv19196.github.io/website/
+https://sujitv19196.github.io/repository/

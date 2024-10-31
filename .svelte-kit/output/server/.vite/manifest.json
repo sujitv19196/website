@@ -1,0 +1,161 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_updater.js": {
+    "file": "chunks/updater.js",
+    "name": "updater",
+    "imports": [
+      "_ssr.js",
+      "_index.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/sujit-headshot.CncopXWz.png",
+      "_app/immutable/assets/ctlogo.CUF-mnnK.ico",
+      "_app/immutable/assets/pandora.BS6s9CeC.png",
+      "_app/immutable/assets/stridefig2.B7quKiaC.png",
+      "_app/immutable/assets/cbdemo.wKuhn4e1.png",
+      "_app/immutable/assets/ctdemo2.BAAji4b8.svg",
+      "_app/immutable/assets/cbs.BBMNCD0R.svg",
+      "_app/immutable/assets/UWB.Cm48t-ht.png"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/lib/imgs/UWB.png": {
+    "file": "_app/immutable/assets/UWB.Cm48t-ht.png",
+    "src": "src/lib/imgs/UWB.png"
+  },
+  "src/lib/imgs/atomic.png": {
+    "file": "_app/immutable/assets/atomic.Di0xbqz6.png",
+    "src": "src/lib/imgs/atomic.png"
+  },
+  "src/lib/imgs/buildspace.jpg": {
+    "file": "_app/immutable/assets/buildspace.Drv9ZDj9.jpg",
+    "src": "src/lib/imgs/buildspace.jpg"
+  },
+  "src/lib/imgs/cbdemo.png": {
+    "file": "_app/immutable/assets/cbdemo.wKuhn4e1.png",
+    "src": "src/lib/imgs/cbdemo.png"
+  },
+  "src/lib/imgs/cbs.svg": {
+    "file": "_app/immutable/assets/cbs.BBMNCD0R.svg",
+    "src": "src/lib/imgs/cbs.svg"
+  },
+  "src/lib/imgs/ctdemo2.svg": {
+    "file": "_app/immutable/assets/ctdemo2.BAAji4b8.svg",
+    "src": "src/lib/imgs/ctdemo2.svg"
+  },
+  "src/lib/imgs/ctlogo.ico": {
+    "file": "_app/immutable/assets/ctlogo.CUF-mnnK.ico",
+    "src": "src/lib/imgs/ctlogo.ico"
+  },
+  "src/lib/imgs/ib.png": {
+    "file": "_app/immutable/assets/ib.Wmsep96V.png",
+    "src": "src/lib/imgs/ib.png"
+  },
+  "src/lib/imgs/laurier.png": {
+    "file": "_app/immutable/assets/laurier.CZHcZ3vz.png",
+    "src": "src/lib/imgs/laurier.png"
+  },
+  "src/lib/imgs/mitremedia.png": {
+    "file": "_app/immutable/assets/mitremedia.BazvGBGk.png",
+    "src": "src/lib/imgs/mitremedia.png"
+  },
+  "src/lib/imgs/nvidia.png": {
+    "file": "_app/immutable/assets/nvidia.FM8H-ws-.png",
+    "src": "src/lib/imgs/nvidia.png"
+  },
+  "src/lib/imgs/pandora.png": {
+    "file": "_app/immutable/assets/pandora.BS6s9CeC.png",
+    "src": "src/lib/imgs/pandora.png"
+  },
+  "src/lib/imgs/splunk.svg": {
+    "file": "_app/immutable/assets/splunk.mp1Lr1a8.svg",
+    "src": "src/lib/imgs/splunk.svg"
+  },
+  "src/lib/imgs/stridefig2.png": {
+    "file": "_app/immutable/assets/stridefig2.B7quKiaC.png",
+    "src": "src/lib/imgs/stridefig2.png"
+  },
+  "src/lib/imgs/sujit-headshot.png": {
+    "file": "_app/immutable/assets/sujit-headshot.CncopXWz.png",
+    "src": "src/lib/imgs/sujit-headshot.png"
+  },
+  "src/lib/imgs/waterloo.png": {
+    "file": "_app/immutable/assets/waterloo.C2OZFlTN.png",
+    "src": "src/lib/imgs/waterloo.png"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_updater.js",
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.5dvUWWHD.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_updater.js",
+      "_index.js"
+    ]
+  }
+}
