@@ -35,7 +35,7 @@ import StrideFig from '$lib/imgs/stridefig2.png';
 import CaptionBeeDemo from '$lib/imgs/cbdemo.png';
 import CTDEMO from '$lib/imgs/ctdemo2.svg';
 import CBSDemo from '$lib/imgs/cbs.svg';
-import UWB from '$lib/imgs/uwb.png';
+import UWB from '$lib/imgs/UWB.png';
 
 // Your resume data
 export let DATA = {
