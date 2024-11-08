@@ -1,4 +1,5 @@
 <script>
+	import { inject } from '@vercel/analytics'
 	import Navbar from '$lib/components/portfolio/Navbar.svelte';
 	import '../app.css';
 	import { ModeWatcher, setMode } from 'mode-watcher';
