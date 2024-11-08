@@ -1,9 +1,11 @@
 <script>
 	import { inject } from '@vercel/analytics'
+	import { dev } from '$app/environment';
 	import Navbar from '$lib/components/portfolio/Navbar.svelte';
 	import '../app.css';
 	import { ModeWatcher, setMode } from 'mode-watcher';
 	setMode('dark');
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <ModeWatcher />
