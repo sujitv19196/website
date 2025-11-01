@@ -32,11 +32,11 @@ export let DATA = {
     description:
         'Software Engineer with a passion for AI full-stack apps, accessibility and assistive technology, and P2P distributed systems',
     summary:
-        `With experience in backend, frontend, full-stack development, and distributed systems, I specialize in building scalable, AI-driven applications. 
-        At Instalily.ai, I launched a full-stack AI advertisement analysis tool used daily by over 25 marketing teams and led the design of a graph-based 
-        AI Agent Python library for deploying autonomous agentic workflows fast. My previous experience includes enhancing accessibility features for a lecture video 
-        platform used by 10,000 users and productionalizing new features for the core song recommendation service powering Pandora and serving over 40 million listeners. Proficient in Python, Java, Go, JS, React, 
-        and various frameworks, I'm passionate about leveraging AI and distributed systems to solve complex problems and improve accessibility for people of all abilities.`,
+        `With experience across full-stack development, distributed systems, and AI, I focus on building scalable, intelligent applications. 
+        At Hanover Park, I engineered real-time AI pipelines and financial automation systems processing billions in assets, and shipped production-ready features used by over 1,500 investors. 
+        Previously at Instalily.ai, I built a full-stack AI marketing analysis platform and led development of a Python framework for agentic workflows, accelerating AI deployment by 10×. 
+        Earlier, I enhanced accessibility in a lecture platform used by 10,000 students and improved recommendation systems serving 40 million Pandora listeners. 
+        Proficient in TypeScript, Python, Java, Go, React, and cloud infrastructure, I’m passionate about applying AI and distributed systems to solve real-world problems at scale.`,
     avatarUrl: 'https://media.licdn.com/dms/image/v2/C5603AQGQSfvU7J4_OQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653598484052?e=1735171200&v=beta&t=rK4Rpj6N8BzqP4_3kXI8HzxZQ-BUg2UFO95RxXEMRWw',
     skills: [
         'Typescript',
