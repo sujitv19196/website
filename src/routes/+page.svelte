@@ -52,12 +52,6 @@
 						delay={BLUR_FADE_DELAY}>{DATA.description}.</BlurFade
 					>
 				</div>
-				<BlurFade delay={BLUR_FADE_DELAY}>
-					<Avatar.Root class="size-28 border">
-						<Avatar.Image alt={DATA.name} src={DATA.avatarUrl} />
-						<Avatar.Fallback>{DATA.initials}</Avatar.Fallback>
-					</Avatar.Root>
-				</BlurFade>
 			</div>
 		</div>
 	</section>

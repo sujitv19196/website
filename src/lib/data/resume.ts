@@ -11,6 +11,7 @@ import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 
 import SujitHeadshot from '$lib/imgs/sujit-headshot.png';
 import InstalilyLogo from '$lib/imgs/instalily.jpeg';
+import HanoverParkLogo from '$lib/imgs/hanover-park.svg';
 import ClassTranscribeLogo from '$lib/imgs/ctlogo.ico';
 import PandoraLogo from '$lib/imgs/pandora.png';
 import UOFILOGO from '$lib/imgs/uofilogo.png';
@@ -38,25 +39,33 @@ export let DATA = {
         and various frameworks, I'm passionate about leveraging AI and distributed systems to solve complex problems and improve accessibility for people of all abilities.`,
     avatarUrl: 'https://media.licdn.com/dms/image/v2/C5603AQGQSfvU7J4_OQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653598484052?e=1735171200&v=beta&t=rK4Rpj6N8BzqP4_3kXI8HzxZQ-BUg2UFO95RxXEMRWw',
     skills: [
+        'Typescript',
         'Python',
         'Java',
         'Go',
-        'JavaScript',
-        'Typescript',
-        'React',
-        'Svelte',
-        'Sveltekit',
-        'Node.js',
-        'GCP',
-        'Spring/Spring Boot',
+        'Javascript',
+        'SQL (PostgreSQL)',
         'Flask',
         'FastAPI',
+        'Spring Boot',
         'REST',
+        'JUnit',
+        'Pytest',
+        'React',
+        'Next.js',
+        'Svelte',
+        'SvelteKit',
+        'Node.js',
+        'Tailwind',
+        'AWS',
+        'GCP',
         'Docker',
-        'SQL',
-        'NoSQL',
-        'Neo4j',
+        'CI/CD (GitHub Actions, Jenkins)',
+        'Vercel',
+        'LLMs / AI Agents',
+        'Vector DBs',
         'Redis',
+        'Neo4j'
     ],
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
@@ -117,6 +126,18 @@ export let DATA = {
     },
     work: [
         {
+            company: 'Hanover Park',
+            href: 'https://www.hanoverpark.com/',
+            badges: [],
+            location: 'New York, NY',
+            title: 'Founding Software Engineer',
+            logoUrl: HanoverParkLogo,
+            start: 'December 2024',
+            end: 'Current',
+            description:
+                'Automating fund administration, portfolio management and LP experience for venture capital firms.'
+        },
+        {
             company: 'Instalily',
             href: 'https://instalily.ai',
             badges: [],
@@ -124,7 +145,7 @@ export let DATA = {
             title: 'AI/Software Engineer',
             logoUrl: InstalilyLogo,
             start: 'May 2024',
-            end: 'Current',
+            end: 'November 2024',
             description:
                 'Building AI Agents and full-stack solutions to automate and optimzie workflows for $1B+ companies.'
         },
