@@ -145,7 +145,7 @@ export let DATA = {
             title: 'AI/Software Engineer',
             logoUrl: InstalilyLogo,
             start: 'May 2024',
-            end: 'November 2024',
+            end: 'December 2024',
             description:
                 'Building AI Agents and full-stack solutions to automate and optimzie workflows for $1B+ companies.'
         },
